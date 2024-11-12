@@ -1,0 +1,116 @@
+{
+    "dependencies": {
+        "plugin_api_version": 4,
+        "use_jquery": true
+    },
+    "shared_keys": {
+        "AAK": {
+            "caption": "successBorderColor",
+            "type": "client_safe"
+        },
+        "AAL": {
+            "caption": "successBackgroundColor",
+            "type": "client_safe"
+        },
+        "AAM": {
+            "caption": "successTitleFontColor",
+            "type": "client_safe"
+        },
+        "AAN": {
+            "caption": "successDescriptionFontColor",
+            "type": "client_safe"
+        },
+        "AAO": {
+            "caption": "warningBorderColor",
+            "type": "client_safe"
+        },
+        "AAP": {
+            "caption": "warningBackgroundColor",
+            "type": "client_safe"
+        },
+        "AAQ": {
+            "caption": "warningTitleFontColor",
+            "type": "client_safe"
+        },
+        "AAR": {
+            "caption": "warningDescriptionFontColor",
+            "type": "client_safe"
+        },
+        "AAS": {
+            "caption": "infoBorderColor",
+            "type": "client_safe"
+        },
+        "AAT": {
+            "caption": "infoBackgroundColor",
+            "type": "client_safe"
+        },
+        "AAU": {
+            "caption": "infoDescriptionFontColor",
+            "type": "client_safe"
+        },
+        "AAm": {
+            "caption": "successtitlefontsize",
+            "type": "client_safe"
+        },
+        "AAn": {
+            "caption": "warningtitlefontsize",
+            "type": "client_safe"
+        },
+        "AAo": {
+            "caption": "infotitlefontsize",
+            "type": "client_safe"
+        },
+        "AAp": {
+            "caption": "successdescriptionfontsize",
+            "type": "client_safe"
+        },
+        "AAq": {
+            "caption": "warningdescriptionfontsize",
+            "type": "client_safe"
+        },
+        "AAr": {
+            "caption": "infodescriptionfontsize",
+            "type": "client_safe"
+        },
+        "AAs": {
+            "caption": "successborderwidth",
+            "type": "client_safe"
+        },
+        "AAt": {
+            "caption": "warningborderwidth",
+            "type": "client_safe"
+        },
+        "AAu": {
+            "caption": "infoborderwidth",
+            "type": "client_safe"
+        },
+        "AAv": {
+            "caption": "errorBorderColor",
+            "type": "client_safe"
+        },
+        "AAw": {
+            "caption": "errorBackgroundColor",
+            "type": "client_safe"
+        },
+        "AAx": {
+            "caption": "errortitlefontsize",
+            "type": "client_safe"
+        },
+        "AAy": {
+            "caption": "errorTitleFontColor",
+            "type": "client_safe"
+        },
+        "AAz": {
+            "caption": "errordescriptionfontsize",
+            "type": "client_safe"
+        },
+        "ABA": {
+            "caption": "errorDescriptionFontColor",
+            "type": "client_safe"
+        },
+        "ABB": {
+            "caption": "errorborderwidth",
+            "type": "client_safe"
+        }
+    }
+}

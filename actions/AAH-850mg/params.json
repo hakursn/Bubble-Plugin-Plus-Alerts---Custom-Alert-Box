@@ -1,0 +1,134 @@
+{
+    "category": "plugins",
+    "display": "Plus Alert",
+    "fields": {
+        "AAI": {
+            "caption": "Title",
+            "editor": "DynamicValue",
+            "name": "title",
+            "rank": 0,
+            "value": "text"
+        },
+        "AAJ": {
+            "caption": "Description",
+            "editor": "DynamicValue",
+            "long_text": true,
+            "name": "description",
+            "rank": 1,
+            "value": "text"
+        },
+        "AAV": {
+            "caption": "Type",
+            "default_val": "Custom",
+            "editor": "Dropdown",
+            "name": "type",
+            "options": "Custom,Success,Warning,Error,Info",
+            "rank": 2
+        },
+        "AAW": {
+            "caption": "Border Color",
+            "default_val": "rgba(17,17,17,1)",
+            "editor": "Color",
+            "name": "bordercolor",
+            "rank": 3
+        },
+        "AAX": {
+            "caption": "Position",
+            "default_val": "Top Right",
+            "editor": "Dropdown",
+            "name": "position",
+            "options": "Top Right,Top Middle,Top Left,Bottom Left,Bottom Middle,Bottom Right",
+            "rank": 4
+        },
+        "AAa": {
+            "caption": "Border Width",
+            "default_val": 1,
+            "editor": "StaticNumber",
+            "name": "borderwidth",
+            "rank": 5
+        },
+        "AAb": {
+            "caption": "Timing",
+            "default_val": 5000,
+            "editor": "StaticNumber",
+            "name": "timing",
+            "rank": 6
+        },
+        "AAc": {
+            "caption": "Background Color",
+            "default_val": "rgba(255,255,255,1)",
+            "editor": "Color",
+            "name": "backgroundcolor",
+            "rank": 7
+        },
+        "AAd": {
+            "caption": "Title Font Color",
+            "default_val": "rgba(17, 17, 17, 1)",
+            "editor": "Color",
+            "name": "titlefontcolor",
+            "rank": 8
+        },
+        "AAe": {
+            "caption": "Description Font Color",
+            "default_val": "rgba(0,0,0,1)",
+            "editor": "Color",
+            "name": "descriptionfontcolor",
+            "rank": 9
+        },
+        "AAf": {
+            "caption": "Title Font Size",
+            "default_val": 18,
+            "editor": "StaticNumber",
+            "name": "titlefontsize",
+            "rank": 10
+        },
+        "AAg": {
+            "caption": "Description Font Size",
+            "default_val": 14,
+            "editor": "StaticNumber",
+            "name": "descriptionfontsize",
+            "rank": 11
+        },
+        "AAh": {
+            "caption": "Animation",
+            "default_val": "fadeIn",
+            "editor": "Dropdown",
+            "name": "animation",
+            "options": "fadeIn,fadeOut,slideInFromLeft,slideInFromRight,slideInFromTop,slideInFromBottom,bounceIn,rotateIn,rotateOut,zoomIn,zoomOut,flipInX,flipInY,shake",
+            "rank": 13
+        },
+        "AAj": {
+            "caption": "Custom Icon",
+            "default_val": "info",
+            "editor": "Dropdown",
+            "name": "icon",
+            "optional": true,
+            "options": "success,warning,info,error,",
+            "rank": 14
+        },
+        "AAk": {
+            "caption": "Show Icon",
+            "default_val": true,
+            "editor": "Checkbox",
+            "name": "showicon",
+            "options": "Yes, No",
+            "rank": 15
+        },
+        "AAl": {
+            "caption": "Show Close Button",
+            "default_val": true,
+            "editor": "Checkbox",
+            "name": "showclosebutton",
+            "rank": 16
+        },
+        "ABC": {
+            "caption": "font",
+            "default_val": "\"Roboto\", \"Open Sans\"",
+            "editor": "StaticText",
+            "name": "font",
+            "optional": true,
+            "rank": 12
+        }
+    },
+    "type": "client_side"
+}
